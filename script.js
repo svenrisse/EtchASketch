@@ -13,5 +13,12 @@ function createGrid(rows, cols) {
         container.appendChild(div);
     }
 }
-
 createGrid(16,16);
+
+document.querySelectorAll(".square").forEach(item => {
+    item.addEventListener("click", event => {
+        item.style.background = "blue";
+    })
+})
+
+
