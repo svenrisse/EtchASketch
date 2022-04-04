@@ -1,0 +1,23 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    
+
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+}
+
+.square {
+    
+    background-color: white;
+    border-style: solid;
+}
+
+/* gird-tem
