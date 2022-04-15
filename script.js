@@ -22,7 +22,7 @@ resetButton.addEventListener("click", event => {
     
 })
 
-/* function to create n amout of divs */
+/* function to create n amout of divs with hover effect */
 function createGrid(rows, cols) {
     container.style.setProperty("--grid-rows",rows);
     container.style.setProperty("--grid-cols",cols);
@@ -42,7 +42,7 @@ function createGrid(rows, cols) {
 }
 createGrid(16,16);
 
-/* event on hover */ 
+
 
 
 
